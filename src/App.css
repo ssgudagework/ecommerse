@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.details h2 {
+  font-size: 1.2rem;
+}
+
+.App {
+  background-color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header img{
+  width:40px;
+}
+
+/* .App-link {  color: #61dafb;} */
+.cards {
+  padding: 2rem;
+  background-color: #E9E3DE;
+  width: 20rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 2fr 2fr 1fr;
+}
+
+.cards img {
+  height: 6rem;
+}
+
+.details h6 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.App-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 1rem;
+}
+
+
+.wish-add .b1 {
+  padding: 10px;
+  margin-right: 6px;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.wish-add .b2 {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+
+
